@@ -5,8 +5,8 @@ let texto = prompt("Escribe un texto", "texto aquí");
 for (let i = 0; i < texto.length; i++) {
   ascci = texto.charCodeAt(i);
   if ((ascci >= 65 && ascci <= 90) || (ascci >= 97 && ascci <= 122)) {
-    ar_temp.push(texto[i].toUpperCase);
-    ar_temp_inversa.push(texto[i].toUpperCase);
+    ar_temp.push(texto[i].toUpperCase());
+    ar_temp_inversa.push(texto[i].toUpperCase());
   }
 }
 
